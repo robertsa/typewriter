@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Typewriter</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans"
+          rel="stylesheet"
+          type="text/css">
+  </head>
+  <body>
+    
+    <textarea id="userInput"
+              cols="40"
+              rows="5"
+              maxlength="200"
+              placeholder="Type your text here"
+              autofocus></textarea>
+
+    <button id="typeBtn">Activate typewriter</button>
+
+    <textarea id="text" readonly></textarea>
+
+    <button id="delBtn" disabled>Delete typed text</button>
+    <button id="clearBtn" disabled>Clear typed text</button>
+  
+    <script src="script.js"></script>
+  
+  </body>
+</html>
